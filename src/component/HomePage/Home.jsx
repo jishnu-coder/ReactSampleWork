@@ -53,7 +53,7 @@ const typeStyle={
 
                     </div>
 
-                    <Grid container className={props.posts} direction="row" >
+                    {/* <Grid container className={props.posts} direction="row" >
                         <Grid item style={gridstyle} xs={6} sm={6} md={6} lg={6} >
                         
                               <img src={props.info[0].img}  />
@@ -62,7 +62,8 @@ const typeStyle={
                         <Grid item style={gridstyle} xs={6} sm={6} md={6} lg={6} >
                                   <Typography style={typeStyle}>{props.info[0].desc}</Typography>
                         </Grid>
-                    </Grid>
+                    </Grid> */}
+                    
                     </div>
 
 }
